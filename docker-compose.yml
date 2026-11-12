@@ -1,0 +1,9 @@
+name: homeserver-apps
+
+include:
+  - ./apps/joplin/compose.yml
+
+networks:
+  # TO-DO : Separate between public and private
+  homeserver:
+    driver: bridge
