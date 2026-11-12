@@ -4,8 +4,9 @@ set -euo pipefail
 
 echo "Setting up fresh Linux based home server"
 
-#0. Disable laptop sleep on lid close
-### TO-DO ###
+#0. Run needed hardware config
+# chmod +x hardware_config.sh
+# ./hardware_config.sh
 
 #1. Install git if I manually copied the directory
 if ! command -v git >/dev/null 2>&1; then
