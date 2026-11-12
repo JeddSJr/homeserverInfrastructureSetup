@@ -24,7 +24,10 @@ fi
 
 #3 Copying my homeserver apps files into the host and launching the apps
 mkdir -p ~/homeserver-apps
-cp -rai ./docker-compose.yml ./apps/ ~/homeserver-apps/
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+ls -la
+cp -rai "$SCRIPT_DIR/../docker-compose.yml" "$SCRIPT_DIR/../apps/" ~/homeserver-apps/
 cd ~/homeserver-apps
 docker compose config
-docker compose up -d --build
+echo "Everythinh has been configured. Fill the needed .env files then run `docker compose up -d --build`"
+#docker compose up -d --build
