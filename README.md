@@ -17,4 +17,7 @@ Just a set of scripts for me to quickly spin-up my current homelab configuration
 7. Fill the .env variables (Maybe make it interactive over ?)
 8. Run main docker-compose.yml file 
 
-
+## Services to set-up at some point
+- Caddy
+- AdGuard
+- Bitwarden
