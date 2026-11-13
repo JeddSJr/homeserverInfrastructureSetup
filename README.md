@@ -1,5 +1,6 @@
-#Homeserver Infrastructure
-Just a set of scripts for me to quickly spin-up my current homelab configuration when I update its hardware.
+# My Homeserver Infrastructure Set-up
+
+Just a set of scripts for me to quickly spin-up my current homelab configuration when I update its hardware or want to try out new things. If you are a complete beginner to the world of home server please consult better resources such as [Reddit/r/selfhosted Wiki](https://wiki.r-selfhosted.com/), [Reddit/r/homelab Wiki](https://www.reddit.com/r/homelab/wiki/index/)  
 
 ## Pre-requisite checks
 
